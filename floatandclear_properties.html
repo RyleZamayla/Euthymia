@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear properties</title>
+    <link rel="shortcut icon" type="image" href="./resource_images/Euthamia_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./navigation_stylesheet.css">
+    <link rel="stylesheet" href="./Stylesheet.css">
+    <link rel="stylesheet" href="./skills_challenge.css">
+    <style>
+        .container{height: 70vh; border: solid;}
+        .box{
+            padding: 1%;
+            margin: auto;
+            text-align: center;
+            color: white;
+        }
+        #box1{
+            background-color: teal;
+            clear: none;
+            height: 10%;
+        }
+        #box2{
+
+            background-color: rgb(30, 146, 107);
+            float: left;
+            width: 14%;
+            height: 68%;
+        }
+        #box3{
+
+            background-color: rgb(115, 202, 173);
+            float: right;
+            width: 82%;
+            height: 68%;
+        }
+        #box4{
+            background-color: rgb(21, 109, 80);
+            clear: both;
+            height: 10%;
+        }
+               
+    
+    </style>
+</head>
+<body>
+    <ul class="navigation">
+        <a class="euthamia" href="index.html"><img src="./resource_images/Euthamia_logo.png"></a>
+        <li><a href="./activities.html">ACTIVITIES</a></li>
+    </ul>
+    <div class="body_container">
+        <div class="container">
+            <div class="box" id="box1">header</div>   
+            <div class="box" id="box2">sidebar</div>   
+            <div class="box" id="box3">content</div>   
+            <div class="box" id="box4">footer</div> 
+        </div>    
+    </div>
+</body>
+</html>

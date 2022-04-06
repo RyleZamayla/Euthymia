@@ -1,0 +1,41 @@
+.body_container {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin: auto;
+    margin-top: 110px;
+}
+.body_container a .box {
+    display: flex;
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 2%;
+    transition-duration: .5s;
+    max-width: 100%;
+}
+.body_container a .box article .instructions {
+    width: 90%;
+}
+article {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.instructions {
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 100%;
+}
+.instructions ul {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a .box:hover {
+    box-shadow: 10px 10px 8px #888888;
+}
